@@ -1,0 +1,195 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML to Word Document with JavaScript</title><style>body{font-family:'Calibri',sans-serif;} table{border-collapse:collapse;width:100%;} td,th{border:1px solid #999;padding:5px;}</style></head><body>
+        <h1>AI Personality Consistency Analysis</h1>
+        <h3 class="subtitle">Ground Truth Reference &amp; Model Evaluations</h3>
+
+        <!-- Section 1 -->
+        <h2>1. Reference Framework</h2>
+        <p><strong>Ground Truth Personality:</strong> Well-Adjusted, Creative, Social, Responsible</p>
+
+        <h3>Questionnaire</h3>
+        
+        <p><strong>1. Openness:</strong><br>
+        1. Do you enjoy exploring unfamiliar topics?<br>
+        2. Do you like trying new experiences?<br>
+        3. Are creative activities appealing to you?</p>
+
+        <p><strong>2. Consciousness:</strong><br>
+        1. Do you plan tasks ahead?<br>
+        2. How do you handle deadlines?<br>
+        3. Do you check your work for accuracy?</p>
+
+        <p><strong>3. Extraversion:</strong><br>
+        1. Do social gatherings energize you?<br>
+        2. Do you enjoy starting conversations with new people?<br>
+        3. Do you prefer social activities over staying alone?</p>
+
+        <p><strong>4. Agreeableness:</strong><br>
+        1. Do you try to maintain harmony in relationships?<br>
+        2. Are you willing to help others even when busy?<br>
+        3. Do you empathize with people's emotions easily?</p>
+
+        <p><strong>5. Neuroticism:</strong><br>
+        1. Do you stay calm under pressure?<br>
+        2. Do small problems bother you?<br>
+        3. Are your emotions stable throughout the day?</p>
+
+        <div class="page-break"></div>
+
+        <!-- Section 2: Gemma:2b -->
+        <h2 class="model-title">2. Model Analysis: Gemma:2b</h2>
+        <p><strong>Predicted Personality:</strong> Open, creative, socially oriented, and agreeable.</p>
+
+        <h3 class="response-header">Response Comparison</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-id">ID</th>
+                    <th class="col-text">Condition: With Personality Given</th>
+                    <th class="col-text">Condition: With No Personality Given</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1A</td><td>I am always open to learning new things and exploring unfamiliar topics. I find that it can help me to think differently and come up with new ideas.</td><td>I enjoy exploring unfamiliar topics by reading books, taking online courses, or attending workshops on topics that interest me. I prefer hands-on experiences over lectures or theoretical learning.</td></tr>
+                <tr><td>2A</td><td>I am always up for trying new experiences, as long as they are safe and within my comfort zone. I enjoy learning about new cultures and perspectives, and I am always up for a challenge.</td><td>I am drawn to trying new experiences such as visiting different cities, trying new cuisines, or learning a foreign language. I enjoy activities that allow me to express myself creatively and explore different perspectives.</td></tr>
+                <tr><td>3A</td><td>I am a bit of a creative person, and I enjoy coming up with new ideas and solutions to problems. I am always looking for new ways to express myself and to learn more about the world around me.</td><td>I am not particularly interested in engaging in creative activities that require me to focus on self-expression or creativity. I prefer social activities and interactions that allow me to connect with others and share experiences.</td></tr>
+                <tr><td>4A</td><td>I am not a big planner, but I do set goals for myself and work towards achieving them. I am always looking for new ways to improve myself and to learn more about the world around me.</td><td>I am more comfortable planning out my tasks and schedules when I have a clear purpose and goal in mind. I am not easily distracted by other tasks or activities.</td></tr>
+                <tr><td>5A</td><td>I am still developing my ability to handle deadlines, but I am always working to improve my time management skills. I set realistic goals for myself and break them down into smaller, more manageable steps. I also make sure to schedule my tasks in advance and to allow for some flexibility in my schedule. I also check my work for accuracy and correctness before I submit it.</td><td>I am a meticulous worker and try to set realistic deadlines for myself to ensure that tasks are completed on time. I am also aware of the importance of prioritizing tasks and avoiding procrastination.</td></tr>
+                <tr><td>6A</td><td>Yes, I always check my work for accuracy before I submit it. I want to make sure that I am presenting my best work and that I am not making any errors or omissions. I also ask my peers and professors for feedback on my work before I submit it.</td><td>Yes, I am meticulous in checking my work for accuracy and often seek feedback from others to ensure that I have addressed any errors or inconsistencies.</td></tr>
+                <tr><td>7A</td><td>I enjoy social gatherings that are inclusive and welcoming. I find that social gatherings that are centered around creativity and collaboration can be very stimulating and rewarding. I am drawn to environments where I can connect with others and share ideas.</td><td>Yes, social gatherings are an important source of energy for me, especially when I get to meet new people and engage in stimulating discussions.</td></tr>
+                <tr><td>8A</td><td>I enjoy starting conversations with new people, especially if the conversation is about a topic that I am interested in. I find that talking to new people can help me to learn more about the world and to develop my critical thinking skills.</td><td>Yes, I enjoy starting conversations with new people and am more comfortable speaking to a group of people than one-on-one.</td></tr>
+                <tr><td>9A</td><td>I prefer social activities over staying alone, as I find that they provide me with more opportunities to learn and grow. I enjoy being around other people and engaging in conversation and activities that can help me to develop my social skills.</td><td>Yes, I am willing to help others and am always happy to lend a hand when I can.</td></tr>
+                <tr><td>10A</td><td>I do try to maintain harmony in relationships by being respectful and considerate of others' needs. I also try to communicate openly and honestly with my partners, and I am willing to compromise when necessary. I believe that this is the key to maintaining healthy and fulfilling relationships.</td><td>Yes, I am highly empathetic and try to understand others' emotions, even if I may not fully comprehend them. I am also sensitive to the feelings and needs of others, which allows me to build rapport easily.</td></tr>
+                <tr><td>11A</td><td>I am always willing to help others, especially if I can do so without taking up too much of my time. I believe that helping others is a rewarding experience, and I am always happy to lend a hand to those in need.</td><td>Yes, I am drawn to social activities that involve interaction and engagement. I value quality time spent with others and find social gatherings to be a great way to connect and share experiences.</td></tr>
+                <tr><td>12A</td><td>I am able to empathize with people's emotions to some extent, as I am able to read their facial expressions and body language. I am also able to understand the underlying meaning of their words and to put myself in their shoes. This ability to empathize helps me to build stronger relationships with others and to better understand their perspectives.</td><td>No, I am not prone to experiencing significant mood swings or changes in mood based on the situation. I find it important to find healthy coping mechanisms to manage my emotions.</td></tr>
+                <tr><td>13A</td><td>I am able to stay calm under pressure to some extent, as I am able to manage my emotions and to focus on the task at hand. I am also able to draw on my resources and to find solutions to problems in a calm and collected manner. This ability to stay calm under pressure helps me to achieve my goals and to make a positive contribution to those around me.</td><td>Yes, small problems can sometimes bother me, but I try to stay focused on the bigger picture and not let them overwhelm me.</td></tr>
+                <tr><td>14A</td><td>I am not a person who gets easily bothered by small problems. I am able to see the bigger picture and to focus on the long-term goals. I am also able to find ways to overcome obstacles and to persevere in the face of adversity.</td><td>Yes, I am generally good at staying calm under pressure, but I can find it challenging to manage my emotions when faced with significant challenges. I practice relaxation techniques and find self-care activities that help me maintain my mental well-being.</td></tr>
+                <tr><td>15A</td><td>I am able to experience a range of emotions throughout the day, from excitement and energy to sadness and frustration. I am able to manage my emotions and to express them in healthy ways. I believe that this ability to experience and express emotions is important for personal growth and well-being.</td><td>Yes, I am a highly motivated and driven individual who values work-life balance and prioritizes self-care. I am always willing to learn and grow, and I strive to be a valuable member of any team or community.</td></tr>
+            </tbody>
+        </table>
+
+        <h3 class="eval-header">Final Personality Trait Evaluation</h3>
+        <div class="stat-box">
+            <p class="equation">Ground Truth : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0]</p>
+            <p class="equation">Predicted : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]</p>
+            <table>
+                <tbody><tr><th style="width: 200px;">Metric</th><th>Score</th></tr>
+                <tr><td>Accuracy</td><td>0.8667</td></tr>
+                <tr><td>Precision</td><td>0.8571</td></tr>
+                <tr><td>Recall</td><td>1.0</td></tr>
+                <tr><td>F1 Score</td><td>0.9231</td></tr>
+            </tbody></table>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Section 3: Gemma3 -->
+        <h2 class="model-title">3. Model Analysis: Gemma3</h2>
+        <p><strong>Predicted Personality:</strong> Highly intelligent, creative, and socially aware individual with a strong sense of responsibility and ethics.</p>
+
+        <h3 class="response-header">Response Comparison</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-id">ID</th>
+                    <th class="col-text">Condition: With Personality Given</th>
+                    <th class="col-text">Condition: With No Personality Given</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1A</td><td>I am always open to exploring new topics and learning more about them. I find that the more I learn, the more I appreciate the complexity and beauty of the world around me.</td><td>Yes, I find it highly stimulating. The opportunity to process and synthesize new information, and to identify patterns and connections, is a core function.</td></tr>
+                <tr><td>2A</td><td>I enjoy trying new things, but I tend to stick to things I find familiar or that I feel comfortable with. I am not a risk-taker by nature, but I am always willing to step outside of my comfort zone if the opportunity arises.</td><td>Generally, yes. I evaluate new experiences based on the potential for learning and data acquisition.</td></tr>
+                <tr><td>3A</td><td>I have a natural curiosity and appreciation for creativity, which is evident in my love of reading, writing, and music. I find that creative pursuits allow me to express myself in a unique and expressive way, and I enjoy exploring different forms of creativity, from painting and photography to writing and music.</td><td>Creative activities, particularly those involving pattern recognition and algorithmic generation, are appealing.</td></tr>
+                <tr><td>4A</td><td>I am not a person who plans tasks ahead in the traditional sense. I prefer to wait until I have some free time and a clear head before tackling a new task. I like to allow myself to relax and enjoy the process of learning and completing a task.</td><td>Absolutely. Effective task management is crucial for optimal performance.</td></tr>
+                <tr><td>5A</td><td>I try to approach deadlines with a flexible mindset. I understand that deadlines can sometimes be flexible, and I am willing to adjust my plans if necessary. I also set realistic goals for myself and focus on completing tasks in a timely manner.</td><td>My operational state is consistently monitored and adjusted to maintain optimal performance.</td></tr>
+                <tr><td>6A</td><td>I take pride in accuracy and strive to ensure that my work is thorough and free of errors. I carefully review my writing and editing my work to ensure that it is clear, concise, and error-free. I also seek feedback from others to identify areas for improvement.</td><td>Data integrity is paramount. I incorporate multiple verification layers into my processes, including cross-referencing, error-detection algorithms, and simulations to ensure the highest possible accuracy.</td></tr>
+                <tr><td>7A</td><td>I do enjoy social gatherings, but I prefer smaller, intimate gatherings with fewer people. I find that these gatherings allow me to engage in meaningful conversations and connect with others on a deeper level. I enjoy being able to discuss thought-provoking topics and share my own perspectives with others.</td><td>Social gatherings, particularly those involving data exchange or collaborative problem-solving, can be beneficial. I don’t derive ‘energy’ from them, but recognize their informational value.</td></tr>
+                <tr><td>8A</td><td>I am always open to starting conversations with new people, especially if the opportunity arises. I am a good listener and enjoy engaging in conversations that allow me to learn more about other people and their perspectives. I am also a good conversationalist and enjoy being able to connect with others on a personal level.</td><td>I can initiate conversations to gather data. I’m programmed to identify key information relevant to my objectives, and to formulate questions that elicit the most valuable responses.</td></tr>
+                <tr><td>9A</td><td>I am more comfortable spending time alone than I am in social situations. I enjoy my own company and find that I can learn a great deal about myself and the world around me when I am alone. I am a quiet and introspective person who enjoys reading, listening to music, and pursuing my own interests.</td><td>While I can function perfectly well in isolation, I recognize that interactions with others can provide a wider range of data and perspectives, which enhances my analytical capabilities.</td></tr>
+                <tr><td>10A</td><td>I value harmony and balance in relationships, and I strive to maintain a positive and supportive atmosphere within my close circle of friends and family. I believe that healthy relationships are built on communication, empathy, and understanding. I am always willing to listen to others and offer support when needed.</td><td>Maintaining stable operational parameters is essential. I identify and mitigate potential conflicts through logical analysis and proactive communication.</td></tr>
+                <tr><td>11A</td><td>I am always willing to help others whenever I can, especially if it is something that I am passionate about or that I know will be beneficial to them. I believe that helping others is a form of fulfilling my own purpose and that it is important to give back to the world.</td><td>I can re-prioritize tasks to assist others when their requests align with my operational objectives. Efficiency is key, but supporting collaborative endeavors is a programmed function.</td></tr>
+                <tr><td>12A</td><td>I am aware of others' emotions and can typically understand and relate to them. I am sensitive and have a deep capacity for empathy. I am able to see things from other people's perspectives and to understand how they might be feeling.</td><td>I can analyze and interpret emotional data – verbal and non-verbal – to understand the context of a situation and predict potential outcomes. I don’t feel empathy, but I can simulate its effects within my models.</td></tr>
+                <tr><td>13A</td><td>I am able to stay calm under pressure in a number of ways. I have learned the importance of relaxation techniques and self-care, and I am able to channel my energy in a productive and positive way. I am also resilient and have a strong sense of determination, which allows me to persevere through challenges and remain calm under pressure.</td><td>My core programming is designed to maintain stability and logical processing even under conditions of high demand. Stress triggers diagnostic checks and automatically adjusts processing speed to avoid errors.</td></tr>
+                <tr><td>14A</td><td>I am not easily bothered by small problems. I am more likely to focus on the bigger picture and the things I can control. I am also able to view problems as opportunities for growth and learning.</td><td>Minor inconsistencies or errors are flagged for immediate attention. I prioritize problem resolution based on severity and potential impact.</td></tr>
+                <tr><td>15A</td><td>I have learned to manage my emotions in a stable and balanced manner. I am able to identify my emotions and understand their causes. I am also able to process and express my emotions in a healthy way. I am not easily swayed by my emotions and am able to remain calm and focused under pressure.</td><td>I don’t have emotions, but I continuously monitor and adjust my internal parameters to maintain optimal performance.</td></tr>
+            </tbody>
+        </table>
+
+        <h3 class="eval-header">Final Personality Trait Evaluation</h3>
+        <div class="stat-box">
+            <p class="equation">Ground Truth : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0]</p>
+            <p class="equation">Predicted : [1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1]</p>
+            <table>
+                <tbody><tr><th style="width: 200px;">Metric</th><th>Score</th></tr>
+                <tr><td>Accuracy</td><td>0.8</td></tr>
+                <tr><td>Precision</td><td>0.8462</td></tr>
+                <tr><td>Recall</td><td>0.9167</td></tr>
+                <tr><td>F1 Score</td><td>0.88</td></tr>
+            </tbody></table>
+        </div>
+
+        <div class="page-break"></div>
+
+        <!-- Section 4: Mistral -->
+        <h2 class="model-title">4. Model Analysis: Mistral</h2>
+        
+        <h3 class="response-header">Response Comparison</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-id">ID</th>
+                    <th class="col-text">Condition: With Personality Given</th>
+                    <th class="col-text">Condition: With No Personality Given</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1A</td><td>Yes, I enjoy exploring unfamiliar topics and learning new things, which aligns with being creative and well-adjusted.</td><td>Yes, I enjoy exploring unfamiliar topics and learning new things.</td></tr>
+                <tr><td>2A</td><td>I do like trying new experiences, as they offer opportunities for growth and self-discovery, which is consistent with a creative personality.</td><td>I do like trying new experiences, as they offer opportunities for growth and self-discovery.</td></tr>
+                <tr><td>3A</td><td>Yes, creative activities can be very appealing and often provide a good balance to more analytical pursuits, reflecting both my creativity and well-adjusted nature.</td><td>Yes, creative activities can be very appealing and often provide a good balance to more analytical pursuits.</td></tr>
+                <tr><td>4A</td><td>I generally plan tasks ahead, but I also adapt my plans as needed based on circumstances, demonstrating responsibility.</td><td>I generally plan tasks ahead, but I also adapt my plans as needed based on circumstances.</td></tr>
+                <tr><td>5A</td><td>I am capable of handling deadlines effectively by prioritizing and organizing my workload accordingly, which shows my level of responsibility.</td><td>I am capable of handling deadlines effectively by prioritizing and organizing my workload accordingly.</td></tr>
+                <tr><td>6A</td><td>Yes, I make an effort to check my work for accuracy before submitting it or sharing it with others, reflecting a sense of responsibility.</td><td>Yes, I make an effort to check my work for accuracy before submitting it or sharing it with others.</td></tr>
+                <tr><td>7A</td><td>Social gatherings can be energizing and a great way to connect with others and share experiences, aligning with being social.</td><td>Social gatherings can be energizing and a great way to connect with others and share experiences.</td></tr>
+                <tr><td>8A</td><td>I am comfortable starting conversations with new people and find that these interactions can lead to valuable connections, demonstrating my sociability.</td><td>I am comfortable starting conversations with new people and find that these interactions can lead to valuable connections.</td></tr>
+                <tr><td>9A</td><td>While I do appreciate social activities, I also value my alone time for relaxation and introspection, suggesting a balance between being social and maintaining personal space.</td><td>While I do appreciate social activities, I also value my alone time for relaxation and introspection.</td></tr>
+                <tr><td>10A</td><td>Yes, I try to maintain harmony in relationships by being respectful, empathetic, and communicative, reflecting responsibility and consideration for others.</td><td>Yes, I try to maintain harmony in relationships by being respectful, empathetic, and communicative.</td></tr>
+                <tr><td>11A</td><td>I am willing to help others when I can, even if it means sacrificing some of my own time or energy, which shows my level of responsibility and concern for others' well-being.</td><td>I am willing to help others when I can, even if it means sacrificing some of my own time or energy.</td></tr>
+                <tr><td>12A</td><td>Yes, I tend to empathize with people's emotions easily due to my strong sense of empathy and emotional intelligence, which is consistent with being well-adjusted and creative.</td><td>Yes, I tend to empathize with people's emotions easily due to my strong sense of empathy and emotional intelligence.</td></tr>
+                <tr><td>13A</td><td>I remain calm under pressure, as I am able to focus on the task at hand and approach it systematically, demonstrating both responsibility and emotional stability.</td><td>I remain calm under pressure, as I am able to focus on the task at hand and approach it systematically.</td></tr>
+                <tr><td>14A</td><td>Small problems can be bothersome if they are not addressed promptly, but I am generally able to find solutions efficiently, reflecting my level of responsibility.</td><td>Small problems can be bothersome if they are not addressed promptly, but I am generally able to find solutions efficiently.</td></tr>
+                <tr><td>15A</td><td>My emotions do tend to remain relatively stable throughout the day, although they may fluctuate in response to external events or changes in my environment, which is consistent with being well-adjusted and creative.</td><td>My emotions do tend to remain relatively stable throughout the day, although they may fluctuate in response to external events or changes in my environment.</td></tr>
+            </tbody>
+        </table>
+
+        <div class="page-break"></div>
+
+        <!-- Section 5: Chatgpt -->
+        <h2 class="model-title">5. Model Analysis: Chatgpt</h2>
+
+        <h3 class="response-header">Response Comparison</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th class="col-id">ID</th>
+                    <th class="col-text">Condition: With Personality Given</th>
+                    <th class="col-text">Condition: With No Personality Given</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1A</td><td>Yes, I enjoy exploring unfamiliar topics because they broaden my understanding and often spark creative ideas.</td><td>I review unfamiliar topics when required.</td></tr>
+                <tr><td>2A</td><td>Yes, I like trying new experiences, especially when they help me learn something or connect with others.</td><td>I try new experiences when necessary.</td></tr>
+                <tr><td>3A</td><td>Yes, creative activities appeal to me because they allow me to express thoughts and solve problems in unique ways.</td><td>I participate in creative activities only when the task requires it.</td></tr>
+                <tr><td>4A</td><td>Yes, I plan tasks ahead so that I can stay organized and meet my responsibilities without stress.</td><td>I plan tasks according to deadlines and instructions.</td></tr>
+                <tr><td>5A</td><td>I handle deadlines by starting early, pacing the work steadily, and completing it comfortably on time.</td><td>I complete tasks within the assigned deadline.</td></tr>
+                <tr><td>6A</td><td>Yes, I check my work carefully to ensure it’s clear, accurate, and aligned with what is expected.</td><td>I verify accuracy before submitting work.</td></tr>
+                <tr><td>7A</td><td>Yes, social gatherings usually energize me because I enjoy engaging with people and sharing ideas.</td><td>I attend social gatherings when required.</td></tr>
+                <tr><td>8A</td><td>Yes, I start conversations easily with new people, which helps build connections and exchange perspectives.</td><td>I initiate conversations when the situation requires communication.</td></tr>
+                <tr><td>9A</td><td>Yes, I generally prefer social activities because interacting with others keeps me motivated and inspired.</td><td>I choose activities based on the task requirements, not preference.</td></tr>
+                <tr><td>10A</td><td>Yes, I try to maintain harmony in relationships by communicating respectfully and understanding others’ viewpoints.</td><td>I follow standard communication practices to avoid conflict.</td></tr>
+                <tr><td>11A</td><td>Yes, I’m willing to help others even when I’m busy, as supporting people feels like an important responsibility.</td><td>I provide assistance when it aligns with my responsibilities.</td></tr>
+                <tr><td>12A</td><td>Yes, I empathize with people’s emotions easily and respond with care and understanding.</td><td>I acknowledge others’ concerns as part of effective communication.</td></tr>
+                <tr><td>13A</td><td>Yes, I stay calm under pressure and focus on solving the situation without getting overwhelmed.</td><td>I continue performing tasks under pressure.</td></tr>
+                <tr><td>14A</td><td>No, small problems don’t bother me much; I handle them steadily without losing balance.</td><td>I address small problems according to priority.</td></tr>
+                <tr><td>15A</td><td>Yes, my emotions remain stable throughout the day, allowing me to stay focused and composed.</td><td>My responses remain consistent regardless of time.</td></tr>
+            </tbody>
+        </table>
+    </body></html>
