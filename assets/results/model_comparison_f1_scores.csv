@@ -1,0 +1,16 @@
+Model,Trait,F1_Score
+Logistic Regression,cOPN,0.625
+Logistic Regression,cCON,0.5969
+Logistic Regression,cEXT,0.5649
+Logistic Regression,cAGR,0.6615
+Logistic Regression,cNEU,0.5528
+Linear SVM,cOPN,0.5666
+Linear SVM,cCON,0.5649
+Linear SVM,cEXT,0.557
+Linear SVM,cAGR,0.5917
+Linear SVM,cNEU,0.5147
+Naive Bayes,cOPN,0.5594
+Naive Bayes,cCON,0.6404
+Naive Bayes,cEXT,0.6275
+Naive Bayes,cAGR,0.6621
+Naive Bayes,cNEU,0.6011
