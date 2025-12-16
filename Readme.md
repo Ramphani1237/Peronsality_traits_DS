@@ -66,56 +66,46 @@ Logistic Regression showed the most consistent and balanced performance across a
 ---
 
 ## Project Structure
-
+```
 Personality_traits_DS/
-│
-├── README.md
-│
-├── Personality_Analysis_Report.doc
-│
-├── requirements.txt
-│
-├── assets/
-│   │
-│   ├── raw/
-│   │   └── essaytrain.csv
-│   │
-│   ├── processed/
-│   │   └── predictions_step5.csv
-│   │
-│   ├── plots/
-│   │   ├── cAGR_bar_counts.png
-│   │   ├── cAGR_pie_percent.png
-│   │   ├── cCON_bar_counts.png
-│   │   ├── cCON_pie_percent.png
-│   │   ├── cEXT_bar_counts.png
-│   │   ├── cEXT_pie_percent.png
-│   │   ├── cNEU_bar_counts.png
-│   │   ├── cNEU_pie_percent.png
-│   │   ├── cOPN_bar_counts.png
-│   │   ├── cOPN_pie_percent.png
-│   │   └── traits_correlation_heatmap.png
-│   │
-│   └── results/
-│       ├── confusion_matrix_cAGR.png
-│       ├── confusion_matrix_cCON.png
-│       ├── confusion_matrix_cEXT.png
-│       ├── confusion_matrix_cNEU.png
-│       ├── confusion_matrix_cOPN.png
-│       ├── f1_scores_per_trait.png
-│       ├── f1_scores_summary.csv
-│       └── model_comparison_f1_scores.csv
-│
-└── notebooks/
-    ├── 00_project_overview.ipynb
-    ├── 01_data_overview.ipynb
-    ├── 02_EDA.ipynb
-    ├── 03_feature_engineering_and_data_preparation.ipynb
-    ├── 04_Model_building.ipynb
-    ├── 05_results_analysis_and_visualization.ipynb
-    ├── 06_multiple_models_analysis.ipynb
-    └── 07_project_finalisation.ipynb
 
+assets/
+    raw/
+        essaytrain.csv
+    processed/
+        predictions_step5.csv
+    plots/
+        cAGR_bar_counts.png
+        cAGR_pie_percent.png
+        cCON_bar_counts.png
+        cCON_pie_percent.png
+        cEXT_bar_counts.png
+        cEXT_pie_percent.png
+        cNEU_bar_counts.png
+        cNEU_pie_percent.png
+        cOPN_bar_counts.png
+        cOPN_pie_percent.png
+        traits_correlation_heatmap.png
+    results/
+        confusion_matrix_cAGR.png
+        confusion_matrix_cCON.png
+        confusion_matrix_cEXT.png
+        confusion_matrix_cNEU.png
+        confusion_matrix_cOPN.png
+        f1_scores_per_trait.png
+        f1_scores_summary.csv
+        model_comparison_f1_scores.csv
+
+notebooks/
+    00_project_overview.ipynb
+    01_data_overview.ipynb
+    02_EDA.ipynb
+    03_feature_engineering_and_data_preparation.ipynb
+    04_Model_building.ipynb
+    05_results_analysis_and_visualization.ipynb
+    06_multiple_models_analysis.ipynb
+    07_project_finalisation.ipynb
+```
 ---
 
 ## Tools and Technologies
